@@ -249,6 +249,7 @@ img {
     gap: 14px;
     margin-bottom: 60px;
 }
+
 .habit-card-container {
     display: grid;
     gap: 20px;
@@ -324,11 +325,65 @@ img {
 }
 
 .run-img img {
- 
-    
     border-radius: 18px;
-    
 }
 
+/* End */
 
+/* Team Section CSS */
+.team-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    max-width: 1020px;
+    margin: 0 auto;
+    padding: 20px;
+    border-radius: 18px;
+    background: rgba(255, 255, 255, 0.1);
+}
 
+.team-content {
+    display: flex;
+    flex-direction: column;
+    gap: 14px;
+    text-align: center;
+    margin-bottom: 60px;
+}
+
+.team-card {
+    
+    width: 326.67px;
+    border-radius: 18px;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.team-card img {
+    width: 326.67px;
+    height: 272px;
+    object-fit: cover;
+    border-radius: 18px;
+    object-position: center;
+}
+
+.team-info {
+    color: white;
+    position: absolute;
+    bottom: 10px;
+    left: 10px;
+}
+
+.team-info h5 {
+    color: white;
+    font-size: 1.25rem;
+    font-weight: 900;
+}
+
+.team-info p {
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 0.875rem;
+    font-weight: 400;
+}
+/* End */
