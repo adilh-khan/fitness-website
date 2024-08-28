@@ -1,0 +1,41 @@
+@media screen and (max-width:576px){
+
+    .hamburger-icon {
+        display: block;
+    }
+
+    .nav {
+        flex-direction: row;
+        /* padding: 0 20px; */
+    }
+     
+    .nav div > ul {
+        display: none;
+        
+        /* align-items: center;
+        padding: 12px 20px 12px 20px;   */
+    }
+
+    .banner {
+        flex-direction: column;
+        gap: 50px;
+        
+    }
+
+    .banner-content {
+        
+    }
+
+    .video-tutorial {
+        bottom: 42%;
+        left: 0%; 
+    }
+
+    .workout-videos {
+        top: 5%;
+        right: -10%;
+        
+    }
+    
+ 
+}

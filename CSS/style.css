@@ -1,0 +1,229 @@
+/* Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+/* Miama Font */
+@import url('https://fonts.cdnfonts.com/css/miama');
+
+
+/* Shared Styles */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.primary-bg {
+    background-color: black;
+}
+
+.inter-font {
+    font-family: "Inter";
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.max-width {
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+.bg-color {
+    
+    background: linear-gradient(180.00deg, rgb(17, 17, 17),rgba(119, 119, 119, 0) 100%);
+}
+
+.primary-btn {
+    color: white;
+    background-color: #E6533C;
+    padding: 16px 40px;
+    border-radius: 42px;
+    font-size: 1.125rem;
+    font-weight: 600px;
+    border: none;
+}
+
+.secondary-btn {
+    color: white;
+    box-sizing: border-box;
+    border: 1px solid rgb(255, 255, 255);
+    border-radius: 42px;
+    padding: 16px 40px;
+    font-size: 1.125rem;
+    font-weight: 600px;
+    background-color: transparent;
+
+
+}
+
+/* End!!!! */
+.brand-name {
+    color: #E6533C;
+    font-size: 2rem;
+    font-weight: 800;
+    font-style: italic;
+}
+.hamburger-icon {
+    display: none;
+}
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+}
+
+.nav div > ul {
+    display: flex;
+    flex-direction: row;
+    gap: 45px;    
+    border: 2px solid rgba(255, 255, 255, 0.1);
+    border-radius: 37px; 
+    padding: 12px 20px 12px 4px;  
+}
+
+.nav div > ul li {
+    
+    list-style: none;
+    
+}
+
+.nav div > ul > li a {
+    color: white;
+    font-size: 1rem;
+    font-weight: 400;
+    text-decoration: none;
+}
+
+.nav div > ul > li:first-child > a {
+    background-color: #E6533C;
+    border-radius: 46px;
+    padding: 8px 20px;
+}
+/* Banner CSS */
+.banner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 30px;
+}
+
+.banner-content {
+    display: flex;
+    flex-direction: column;
+    gap: 28px;
+    text-align: left;
+}
+
+.banner-title {
+    color: white;
+    font-size: 4.875rem;
+    font-weight: 900;
+    line-height: 120%;
+}
+
+.banner-title span {
+    font-style: italic;
+    font-weight: 400;
+    font-family: 'Miama', sans-serif;
+}
+
+.banner-description {
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5rem;
+}
+
+.btn-pair {
+    display: flex;
+    flex-direction: row;
+    gap: 16px;  
+}
+
+.banner-img {
+    position: relative;
+}
+  
+.banner-img img {
+    width: 100%;
+    
+}
+
+
+.video-tutorial {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 12px;
+    width: 206px;
+    height: 96px;
+    box-sizing: border-box;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 12px;
+    backdrop-filter: blur(20px);
+    background: rgba(48, 48, 48, 0.54);
+    position: absolute;
+    bottom: 17.5%;
+    left: -32%; 
+}
+
+.small-circle {
+    width: 40px;
+    height: 40px;
+    background-color: #E6533C;
+    border-radius: 50%;
+}
+
+.video-tutorial-content {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.video-tutorial-content h3 {
+    color: white;
+    font-size: 1.5rem;
+    font-weight: 900px;
+    letter-spacing: 1px;
+}
+
+.video-tutorial-content p {
+    font-size: 1rem;
+    font-weight: 400;
+    color: rgba(239, 237, 232, 0.65);
+    letter-spacing: 1px;
+}
+
+.workout-videos {
+    width: 193px;
+    height: 98px;
+    box-sizing: border-box;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 12px;
+    backdrop-filter: blur(20px);
+    background: rgba(255, 255, 255, 0.1);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+    position: absolute;
+    top: 23%;
+    right: -20%;
+    
+}
+
+.workout-videos h3 {
+    color: white;
+    font-size: 2.5rem;
+    font-weight: 900;
+    letter-spacing: 1px;
+}
+
+.workout-videos p {
+    font-size: 1rem;
+    font-weight: 400;
+    letter-spacing: 0.5px;
+}
+
