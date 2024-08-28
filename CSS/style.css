@@ -27,7 +27,7 @@ img {
 
 .max-width {
     max-width: 1440px;
-    margin: 0 auto;
+    margin: 100px auto;
 }
 
 .bg-color {
@@ -241,9 +241,7 @@ img {
 }
 
 /* Habit Section CSS */
-.habit-container {
-    margin-top: 100px;
-}
+
 .habit-content {
     display: flex;
     flex-direction: column;
@@ -299,5 +297,38 @@ img {
     font-weight: 400;
     letter-spacing: 0.3px;
 }
+/* End */
+
+/* Run Section CSS */
+.run-container {
+    display: flex;
+    flex-direction: row;
+    padding: 30px;
+    border-radius: 18px;
+    background: rgb(34, 34, 34);
+    align-items: center;
+    gap: 160px;
+}
+
+.run-content {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    gap: 30px;
+}
+
+.run-text {
+    display: flex;
+    flex-direction: column;
+    gap: 14px;
+}
+
+.run-img img {
+ 
+    
+    border-radius: 18px;
+    
+}
+
 
 
