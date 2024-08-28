@@ -10,6 +10,10 @@
     padding: 0;
 }
 
+img {
+    width: 100%;
+}
+
 .primary-bg {
     background-color: black;
 }
@@ -50,8 +54,18 @@
     font-size: 1.125rem;
     font-weight: 600px;
     background-color: transparent;
+}
 
+.section-title {
+    color: white;
+    font-size: 3rem;
+    font-weight: 900;
+}
 
+.section-description {
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 0.875rem;
+    font-weight: 400;
 }
 
 /* End!!!! */
@@ -149,7 +163,6 @@
     
 }
 
-
 .video-tutorial {
     display: flex;
     flex-direction: row;
@@ -226,4 +239,65 @@
     font-weight: 400;
     letter-spacing: 0.5px;
 }
+
+/* Habit Section CSS */
+.habit-container {
+    margin-top: 100px;
+}
+.habit-content {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    gap: 14px;
+    margin-bottom: 60px;
+}
+.habit-card-container {
+    display: grid;
+    gap: 20px;
+    grid-template-columns: repeat(4, 1fr);
+}
+
+.habit-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+}
+
+.habit-card-img {
+   background-color: gray;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   border: 2px solid gray;
+   border-radius: 50%;
+}
+
+.habit-card-img img {
+    border-radius: 50%;
+}
+
+.habit-card-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 6px;
+    text-align: center;
+}
+
+.habit-card-title {
+    color: white;
+    font-size: 1.125rem;
+    font-weight: 600;
+}
+
+.habit-card-description {
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 0.875rem;
+    font-weight: 400;
+    letter-spacing: 0.3px;
+}
+
 

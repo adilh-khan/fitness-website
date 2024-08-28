@@ -1,4 +1,4 @@
-@media screen and (max-width:576px){
+@media screen and (max-width: 576px){
 
     .hamburger-icon {
         display: block;
@@ -18,13 +18,8 @@
 
     .banner {
         flex-direction: column;
-        gap: 50px;
-        
-    }
-
-    .banner-content {
-        
-    }
+        gap: 50px; 
+    } 
 
     .video-tutorial {
         bottom: 42%;
@@ -36,6 +31,9 @@
         right: -10%;
         
     }
-    
- 
+    .habit-card-container {
+        display: grid;
+        gap: 50px;
+        grid-template-columns: repeat(1, 1fr);
+    }
 }
